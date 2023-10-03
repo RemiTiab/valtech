@@ -12,8 +12,6 @@
         <p>
           <nuxt-link to="/">Retour sur la page d'accueil</nuxt-link>
         </p>
-
-        <BlockSpacer :height="7" />
       </PageContent>
     </div>
   </LayoutContent>

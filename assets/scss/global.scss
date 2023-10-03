@@ -8,7 +8,6 @@
 /* Normalize.css & Grid Bootstrap */
 @import "@/node_modules/normalize.css/normalize.css";
 
-
 // /* Breakpoint SASS */
 // @import "@/node_modules/breakpoint-sass/stylesheets/_breakpoint"; // Imported in nuxt.config.js
 
@@ -20,3 +19,6 @@
 @import "3-base/fonts";
 @import "3-base/typography";
 @import "3-base/helpers";
+
+/* 4. Layouts */
+@import "4-layout/common";

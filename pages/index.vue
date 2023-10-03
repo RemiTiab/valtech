@@ -1,6 +1,6 @@
 <template>
   <LayoutContent>
-    <h1>HELLO WORLD</h1>
+    <h1>VALTECH</h1>
   </LayoutContent>
 </template>
 

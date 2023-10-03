@@ -117,7 +117,7 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [],
+  plugins: [{ src: "~/plugins/vueResize.js" }],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
@@ -146,7 +146,7 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     "@nuxtjs/axios",
     "@nuxtjs/pwa",
-    // "@nuxtjs/redirect-module",
+    "@nuxtjs/redirect-module",
     "vue-scrollto/nuxt",
     "vue-social-sharing/nuxt",
   ],

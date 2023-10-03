@@ -1,29 +1,25 @@
 <template>
-  <LayoutHeader />
-
   <div>
-    <Nuxt />
-  </div>
+    <LayoutHeader />
 
-  <LayoutFooter />
+    <div>
+      <Nuxt />
+    </div>
 
-  <div class="resizer">
-    <resize-observer @notify="handleResize" />
+    <LayoutFooter />
+
+    <div class="resizer">
+      <resize-observer @notify="handleResize" />
+    </div>
   </div>
 </template>
 
 <script>
-import { mapState, mapActions } from "vuex";
+import { mapState } from "vuex";
 
 export default {
   computed: mapState(["routing", "windowParams"]),
   mounted() {
-    if (this.$browserDetect.isIE) {
-      this.updateData(true);
-    } else {
-      this.updateData(false);
-    }
-
     const params = {
       width: window.innerWidth,
       height: window.innerHeight,

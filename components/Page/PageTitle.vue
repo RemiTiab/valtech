@@ -35,28 +35,15 @@ $page-title-h2-font-sizes: (
 h1 {
   @include font-size($page-title-h1-font-sizes);
 
-  font-family: $artus-alphabet-font-stack;
-  font-weight: 400;
   line-height: 1; // 1.2 was too large
   margin-bottom: 0.575em;
   color: v(black-color);
-
-  @include breakpoint($medium-min) {
-    text-align: center;
-  }
-
-  @include breakpoint($small-max) {
-    padding-right: 36px;
-  }
 }
 
 h2 {
   @include font-size($page-title-h2-font-sizes);
 
-  font-family: $interstate-condensed-font-stack;
-  font-weight: 700;
   line-height: 1.2;
   letter-spacing: -0.01em;
-  margin-top: 1.4em;
 }
 </style>
