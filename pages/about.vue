@@ -1,11 +1,6 @@
 <template>
   <LayoutContent>
-    <div class="about">
-      <BlockTitle :content="introduction" />
-      <BlockDescription :content="description">
-        <p>Contenus de la description</p>
-      </BlockDescription>
-    </div>
+    <Gallery />
   </LayoutContent>
 </template>
 
@@ -15,16 +10,10 @@ import { mapState, mapActions } from "vuex";
 export default {
   data() {
     return {
-      introduction: {
-        title: "Title",
-      },
-      description: {
-        title: "Description",
-      },
       metaData: {
         title: "About - Valtech",
         description: "About - Valtech",
-        url: "@TODO" + this.$nuxt.$route.path,
+        url: "" + this.$nuxt.$route.path,
       },
     };
   },
@@ -84,15 +73,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-$smoked-tile__title-font-sizes: (
-  null: calc(1.125rem + #{16 / 1440 * 100vw}),
-  $small-max: 1.125rem,
-);
-
-.about {
-  @include font-size($smoked-tile__title-font-sizes);
-
-  position: relative;
-}
-</style>
+<style lang="scss"></style>

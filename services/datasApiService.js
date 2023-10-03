@@ -1,7 +1,7 @@
-// import { datasApi } from "./datasApi";
+import { datasApi } from "./datasApi";
 
-// export default {
-//   getGraphData(request) {
-//     return datasApi("/dataviz/json/" + request + ".json");
-//   },
-// };
+export default {
+  getDatas(request) {
+    return datasApi("/datas/json/" + request + ".json");
+  },
+};

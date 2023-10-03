@@ -1,0 +1,16 @@
+﻿{
+  "countries": [
+    {
+      "id": 0,
+      "surtitle": "Front-end",
+      "title": "Valtech_",
+      "subtitle":
+        "Lorem ipsun dolor sit a met lorem dolor sit a met factius lorem isun dolor sit a met ipsun lorem amet",
+      "chapo":
+        "Lorem ipsun dolor sit a met lorem dolor sit a met factius lorem isun dolor sit a met ipsun lorem amet",
+      "ctaText": "Explore",
+      "ctaLink": "#",
+      "backgroundSrc": "/images/"
+    }
+  ]
+}

@@ -70,13 +70,15 @@ export default {
 
   &--header {
     width: 130px;
+    z-index: 99999999;
 
     svg {
       padding: 0.3rem;
       fill: v(black-color);
       transition: all 0.2s ease-in-out;
 
-      &:hover {
+      &:hover,
+      &:focus {
         background-color: v(black-color);
         fill: v(white-color);
       }
@@ -91,9 +93,22 @@ export default {
       fill: v(white-color);
       transition: all 0.2s ease-in-out;
 
-      &:hover {
+      &:hover,
+      &:focus {
         background-color: v(white-color);
         fill: v(black-color);
+      }
+    }
+  }
+
+  &.is-white {
+    svg {
+      background-color: v(black-color);
+      fill: v(white-color);
+
+      &:hover {
+        fill: v(black-color);
+        background-color: v(white-color);
       }
     }
   }

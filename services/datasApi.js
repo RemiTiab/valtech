@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const datasApi = axios.create({
-  // baseURL: `https://www.lasuiteandco.com/api/web/v1`,
+  // baseURL: `@TODO`,
   withCredentials: false, // This is the default
   headers: {
     Accept: "application/json",

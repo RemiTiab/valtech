@@ -186,7 +186,7 @@ export default {
     },
   },
   sitemap: {
-    hostname: "@TODO",
+    hostname: "https://www.valtech.com",
     gzip: true,
   },
 };
