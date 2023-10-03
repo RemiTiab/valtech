@@ -1,0 +1,22 @@
+@charset 'UTF-8';
+
+/* 1. Configuration and helpers */
+@import "1-abstracts/variables";
+@import "1-abstracts/functions";
+@import "1-abstracts/mixins";
+
+/* Normalize.css & Grid Bootstrap */
+@import "@/node_modules/normalize.css/normalize.css";
+
+
+// /* Breakpoint SASS */
+// @import "@/node_modules/breakpoint-sass/stylesheets/_breakpoint"; // Imported in nuxt.config.js
+
+/* 2. Vendors */
+// @import "2-vendor/plugins";
+
+/* 3. Base stuff */
+@import "3-base/base";
+@import "3-base/fonts";
+@import "3-base/typography";
+@import "3-base/helpers";

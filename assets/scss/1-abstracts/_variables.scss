@@ -1,0 +1,46 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/* Regular font family */
+// $main-font-stack: "myriad-pro", sans-serif;
+$main-font-stack: "Roboto", sans-serif;
+$main-line-height: normal;
+
+/* Code (monospace) font family */
+$code-font-stack: "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+  "Monaco", monospace;
+
+/* Root Variables */
+:root {
+  --container-width: 1320px;
+  --large-container-width: 100%;
+  --container-padding: 0 1.25rem; // 20px
+  --container-padding--small: 0 0.938rem; // 15px
+  --white-color: rgb(255, 255, 255);
+  --black-color: rgb(0, 0, 0);
+}
+
+/* Breakpoints */
+$x-small-max: max-width ((575 / 16) * 1em);
+$small-min: ((576 / 16) * 1em);
+$small-max: max-width ((767 / 16) * 1em);
+$medium-min: ((768 / 16) * 1em);
+$s-medium-max: max-width ((880 / 16) * 1em);
+$medium-max: max-width ((991 / 16) * 1em);
+$large-min: ((992 / 16) * 1em);
+$s-large-max: max-width ((1099 / 16) * 1em);
+$large-max: max-width ((1199 / 16) * 1em);
+$x-large-min: ((1200 / 16) * 1em);
+$l-large-max: max-width ((1299 / 16) * 1em);
+$x-large-max: max-width ((1399 / 16) * 1em);
+$xx-large-min: ((1400 / 16) * 1em);
+$xx-large-max: max-width ((1440 / 16) * 1em);
+$xl-large-max: max-width ((1699 / 16) * 1em);
+$xxx-large-min: ((1904 / 16) * 1em);
+$xxx-large-max: max-width ((1905 / 16) * 1em);
+
+/// Relative or absolute URL where all assets are served from
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '/assets/' !default;
