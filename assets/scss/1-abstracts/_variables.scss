@@ -13,8 +13,7 @@ $code-font-stack: "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
 
 /* Root Variables */
 :root {
-  --container-width: 1320px;
-  --large-container-width: 100%;
+  --container-width: 90vw;
   --container-padding: 0 1.25rem; // 20px
   --container-padding--small: 0 0.938rem; // 15px
   --white-color: rgb(255, 255, 255);
@@ -43,4 +42,4 @@ $xxx-large-max: max-width ((1905 / 16) * 1em);
 /// Relative or absolute URL where all assets are served from
 /// @example scss - When using a CDN
 ///   $base-url: 'http://cdn.example.com/assets/';
-$base-url: '/assets/' !default;
+$base-url: "/assets/" !default;

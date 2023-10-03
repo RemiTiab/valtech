@@ -38,7 +38,7 @@ export default {
 <style lang="scss">
 /* Import Local Fonts */
 @font-face {
-  font-family: "ArtusAlphabet";
+  font-family: "Roboto";
   src: url("../static/fonts/Roboto/Roboto-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -46,7 +46,7 @@ export default {
 }
 
 @font-face {
-  font-family: "ArtusAlphabet";
+  font-family: "Roboto";
   src: url("../static/fonts/Roboto/Roboto-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
@@ -54,7 +54,7 @@ export default {
 }
 
 @font-face {
-  font-family: "ArtusAlphabet";
+  font-family: "Roboto";
   src: url("../static/fonts/Roboto/Roboto-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
